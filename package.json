@@ -6,7 +6,7 @@
     "clean": "npx hardhat clean",
     "compile": "npx hardhat compile",
     "deploy": "npx hardhat run scripts/deploy.js",
-    "verify": "npx hardhat verify --constructor-args arguments.js 0xd071bD1D31AECb4230365309495052732a92aD9c --network ropsten",
+    "verify": "npx hardhat verify --constructor-args arguments.js 0xFD8E2766c68BB8Da5a5AD5718724383fd9358bE6 --network ropsten",
     "accounts": "npx hardhat accounts",
     "test": "npx hardhat test --network hardhat"
   },

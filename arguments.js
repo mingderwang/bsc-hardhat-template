@@ -1,1 +1,1 @@
-module.exports = ['ming'];
+module.exports = ["Ming", "MING", 18, 3];
