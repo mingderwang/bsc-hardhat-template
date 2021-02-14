@@ -1,0 +1,23 @@
+{
+  "name": "hardhat-project",
+  "license": "MIT",
+  "scripts": {
+    "chain": "npx hardhat node",
+    "clean": "npx hardhat clean",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js",
+    "verify": "npx hardhat verify --constructor-args arguments.js 0xd071bD1D31AECb4230365309495052732a92aD9c --network ropsten",
+    "accounts": "npx hardhat accounts",
+    "test": "npx hardhat test --network hardhat"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "@nomiclabs/hardhat-etherscan": "^2.1.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.0",
+    "ethereum-waffle": "^3.2.2",
+    "ethers": "^5.0.31",
+    "hardhat": "^2.0.10",
+    "ramda": "^0.27.1"
+  }
+}
