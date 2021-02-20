@@ -28,7 +28,7 @@ module.exports = {
     // Obtain one at https://etherscan.io/
     apiKey: etherscanApiKey
   },
-  defaultNetwork: "bsctestnet", // <-- change here for other network, default use hardhat network.
+  defaultNetwork: "kovan", // <-- change here for other network, default use hardhat network.
   networks: {
   	localhost: {
       url: "http://127.0.0.1:8545"
