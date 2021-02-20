@@ -91,7 +91,7 @@ module.exports = {
     }
   },
   solidity: {
-  version: "0.4.24",
+  version: "0.7.0",
   settings: {
     optimizer: {
       enabled: true

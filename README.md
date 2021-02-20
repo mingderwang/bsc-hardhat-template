@@ -17,3 +17,8 @@ Successfully submitted source code for contract
 contracts/PermittableToken.sol:PermittableToken at 0x92f77C993161B2CE973957BD0C75C1D0ceac495a
 for verification on Etherscan. Waiting for verification result...
 ```
+
+# change contract name to FixedToken.sol
+https://kovan.etherscan.io/address/0x451abEDDb517fe9960722159cf39c0197Ec5c8e4#code
+# TODO, 
+* Domain_saperator should be changed for each ChainID.
