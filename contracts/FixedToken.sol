@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/drafts/ERC20Permit.sol"; //https://github.com/Op
 import "@openzeppelin/contracts/token/ERC20/ERC20Burnable.sol";
 contract FixedToken is ERC20Permit, Ownable, ERC20Burnable {
     constructor () ERC20("Permittable-Fixed", "PIX") ERC20Permit("Permittable-Fixed") {
-        _mint(msg.sender, 1000);
+        _mint(msg.sender, 1000000000000000000000);
     }
       /**
    * @dev Function to mint tokens only Owner

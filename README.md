@@ -19,6 +19,14 @@ for verification on Etherscan. Waiting for verification result...
 ```
 
 # change contract name to FixedToken.sol
-https://kovan.etherscan.io/address/0x451abEDDb517fe9960722159cf39c0197Ec5c8e4#code
+```
+https://kovan.etherscan.io/address/0x451abEDDb517fe9960722159cf39c0197Ec5c8e4
+https://testnet.bscscan.com/address/0x22e0BfAC6c1aDBb8A545aF31740f32152742f24B
+
+https://rinkeby.etherscan.io/address/0xFD8E2766c68BB8Da5a5AD5718724383fd9358bE6#code
+//or
+https://rinkeby.etherscan.io/address/0xd071bD1D31AECb4230365309495052732a92aD9c#code
+```
+
 # TODO, 
 * Domain_saperator should be changed for each ChainID.

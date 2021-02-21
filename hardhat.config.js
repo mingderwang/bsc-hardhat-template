@@ -28,7 +28,7 @@ module.exports = {
     // Obtain one at https://etherscan.io/
     apiKey: etherscanApiKey
   },
-  defaultNetwork: "kovan", // <-- change here for other network, default use hardhat network.
+  defaultNetwork: "rinkeby", // <-- change here for other network, default use hardhat network.
   networks: {
   	localhost: {
       url: "http://127.0.0.1:8545"
@@ -67,7 +67,7 @@ module.exports = {
       accounts: [privateKey]
     },
     bsctestnet: {
-      url: "https://data-seed-prebsc-1-s1.binance.org:8545",
+      url: "https://data-seed-prebsc-2-s3.binance.org:8545/",
       chainId: 97,
       accounts: [privateKey]
     },
